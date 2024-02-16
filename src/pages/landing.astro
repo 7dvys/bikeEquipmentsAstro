@@ -1,0 +1,85 @@
+---
+import '../../assets/scss/astro-ecommerce.scss';
+// import CardCategory from '../components/products/cardCategory';
+import PromoSectionLarge from '../components/promo/promoSectionLarge';
+import PromoSectionLargeWithVideo from '../components/promo/promoSectionLargeWithVideo';
+// import ProductFeature from '../components/products/productFeature'
+import IncentiveLarge from '../components/incentives/incentiveLarge';
+import data from '../../public/data.json';
+import PageLayout from '../layouts/PageLayout.astro';
+---
+
+
+<PageLayout title="Bike Equipments - Landing">
+  <PromoSectionLarge  
+    slot='content'
+    title={data.landing.title}
+    full_description={data.landing.subtitle}  
+    pageHeaderBgImg={data.landing.background.src}
+    pageHeaderMinVh="90vh"
+    pageHeaderRadius='0'
+    ctaText='Conoce nuestros productos'
+    cta='/'
+  />
+
+  <Fragment slot='containerContent'>
+    <div class="d-block text-center mb-5">
+      <h3>Nuevos ingresos</h3>
+      <a class="text-dark font-weight-bold" href="/#">Ver todas las novedades &#62;</a>
+  </div>
+
+  <PromoSectionLargeWithVideo 
+    title={data.new.title}
+    full_description={data.new.subtitle} 
+    pageHeaderBgVideo={data.new.background.src} 
+    pageHeaderMinVh="50vh"
+    pageHeaderRadius="0.5rem"
+    cta='#'
+    ctaText='Conoce Pioneira'
+  />
+  
+<!-- <ProductFeature 
+      title='Bienvenido al mundo del guerrero callejero'
+      subTitle='Sobre Pioneira'
+      images={[{src:'',alt:'hola'},{src:'',alt:'hola'},{src:'',alt:'hola'}]}
+      full_description=''
+      productDescription=''
+      featuresDetails={{
+          "Proteccion para ganar":'Pioneira es especialista en el segmento textil y cuenta con una línea exclusiva y diversa de impermeables y accesorios, todos orientados a tu protección.',}}
+  /> -->
+
+  <!-- <div class="d-block text-center mb-5">
+      <h3>Explora por categoria</h3>
+      <a class="text-dark font-weight-bold" href="#">Ver todas las categorias &#62;</a>
+  </div>
+  <div class="row mb-5 ">
+      {data.categories.slice(0, 4).map(category => 
+        <div class="col-md-6 col-lg-3">
+          <CardCategory
+            thumb_src = {category.thumb_src}
+            collection = {category.collection}
+            title = {category.title}
+            ctaText={`ver productos`}
+            classList=''
+            cta='#'
+          />
+        </div>
+      )}
+  </div> -->
+  <br id="nosotros">
+
+  <div id="nosotros" class="my-5">
+    <IncentiveLarge />
+  </div>            
+
+  <PromoSectionLarge 
+    title="Descubre Nuestro Catálogo"
+    full_description={'Explora una amplia selección de productos de alta calidad'} 
+    pageHeaderBgImg={"/images/shoeiBackground.jpg"} 
+    ctaText='Consigue Tu Catálogo Ahora'
+    pageHeaderMinVh="50vh"
+    pageHeaderRadius="1rem"
+    cta='/contacto'
+  />
+  </Fragment>
+</PageLayout>

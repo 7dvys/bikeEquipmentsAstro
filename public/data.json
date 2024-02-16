@@ -1,0 +1,43 @@
+{
+  "landing":{
+    "title":"Tu socio en motopartes",
+    "subtitle":"Más de 20 años de experiencia, una red sólida de contactos, asesoramiento personalizado y productos de alta calidad. La opción confiable para adquirir motopartes.",
+    "background":{
+      "src":"https://images.unsplash.com/photo-1628441129679-cfded22b0c71",
+      "alt":"Shoei background"
+    }
+  },
+  "new":{
+    "title":"Conoce Pioneira",
+    "subtitle":"Pioneira es especialista en el segmento textil y cuenta con una línea exclusiva y diversa de impermeables y accesorios, todos orientados a tu protección.",
+    "background":{
+      "src":"https://capaspioneira.com.br//wp-content/uploads/2022//06/Pioneira-Filme-Jaqueta-1.m4v",
+      "alt":"Pioneria Video"
+    }
+  },
+  "categories": [
+    {
+      "thumb_src": "../images/cascos-shoei.jpg",
+      "title": "Cascos",
+      "collection": "Pista"
+    },
+    {
+      "thumb_src": "../images/dainese.webp",
+      "title": "Indumentaria",
+      "collection": "Adventure"
+    },
+    {
+      "thumb_src": "../images/utilidades.jpg",
+      "title": "Utilidades",
+      "collection": "Motos"
+    },
+    {
+      "thumb_src": "../images/Repuestos-de-motos.jpg",
+      "title": "Repuestos",
+      "collection": "Motos"
+    }
+  ],
+  "products": [
+    
+  ]
+}
