@@ -479,6 +479,168 @@
   "categorie":"cascos",
   "subCategorie":"pista",
   "brand":"agv"
+},
+{
+  "id":"17",
+  
+  "title":"AX9 AGV E2205 MULTI MPLK - STEPPA CARBON/GREY/YELLOW FLUO",
+  "shortDescription":"Admite cuatro configuraciones diferentes con solo extraer el pico rediseñado y el visor ultrapanorámico.",
+  "largeDescription":"Fabricado en Nylon de 0,35mm de espesor que proporciona alta resistencia. Es un producto resistente al agua indicado para usuarios que necesitan un producto duradero. Dispone de un único compartimento con capacidad de 33 litros y un bolsillo frontal de 28cm de ancho x 32cm de alto.",
+  "variants":[
+     {
+        "id":"0",
+        "name":"negro",
+        "images":[
+           {
+             "src":"https://dainese-cdn.thron.com/delivery/public/image/dainese/3ae79eb1-8155-4195-ab43-934311c410e1/ramfdh/std/1230x1230/ax9-agv-e2205-multi-mplk-steppa-carbon-grey-yellow-fluo.jpg?format=auto",
+             "alt":""
+           },
+           {
+             "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+             "alt":""
+           }
+         ],
+         "stock":3
+     }
+  ],
+  "categorie":"cascos",
+  "subCategorie":"off-road",
+  "brand":"agv"
+},
+{
+  "id":"18",
+  
+  "title":"ORBYT E2205 MONO - MATT GREY",
+  "shortDescription":"Orbyt es el exclusivo casco jet de AGV, diseñado para maximizar el confort, la libertad y la protección en el entorno urbano.",
+  "largeDescription":"Fabricado en Nylon de 0,35mm de espesor que proporciona alta resistencia. Es un producto resistente al agua indicado para usuarios que necesitan un producto duradero. Dispone de un único compartimento con capacidad de 33 litros y un bolsillo frontal de 28cm de ancho x 32cm de alto.",
+  "variants":[
+     {
+        "id":"0",
+        "name":"negro",
+        "images":[
+           {
+             "src":"https://dainese-cdn.thron.com/delivery/public/image/dainese/9092779b-c6db-4e81-9e4c-0507a3c98f0f/ramfdh/std/1230x1230/orbyt-e2205-mono-matt-grey.jpg?format=auto",
+             "alt":""
+           },
+           {
+             "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+             "alt":""
+           }
+         ],
+         "stock":3
+     }
+  ],
+  "categorie":"cascos",
+  "subCategorie":"urban",
+  "brand":"agv"
+},
+{
+  "id":"19",
+  
+  "title":"J-Cruise 2",
+  "shortDescription":"Una mayor simplicidad junto a un diseño más atractivo y moderno, el J-Cruise ha evolucionado dando lugar al nuevo casco de moto J-Cruise 2. Un casco que cuenta con todos los avances técnicos de Shoei para revolucionar el mercado del casco Jet.",
+  "largeDescription":"Fabricado en Nylon de 0,35mm de espesor que proporciona alta resistencia. Es un producto resistente al agua indicado para usuarios que necesitan un producto duradero. Dispone de un único compartimento con capacidad de 33 litros y un bolsillo frontal de 28cm de ancho x 32cm de alto.",
+  "variants":[
+     {
+        "id":"0",
+        "name":"negro",
+        "images":[
+           {
+             "src":"https://www.shoeicorver.com/img/cascos/01-img-shoei-casco-moto-jcruise2.png",
+             "alt":""
+           },
+           {
+             "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+             "alt":""
+           }
+         ],
+         "stock":3
+     }
+  ],
+  "categorie":"cascos",
+  "subCategorie":"urban",
+  "brand":"shoei"
+},
+{
+  "id":"20",
+  
+  "title":"X-SPR Pro",
+  "shortDescription":"El nuevo casco de moto Shoei X-SPR Pro, presenta un diseño y características avanzadas totalmente enfocadas en las carreras de alta velocidad.",
+  "largeDescription":"El nuevo diseño del estabilizador posterior proporciona un rendimiento aerodinámico estable, incluso a velocidades superiores a los 350 km/h, pero la innovación que hay detrás del nuevo X-SPR Pro no se limita solamente a su excepcional rendimiento aerodinámico; las dimensiones alrededor de la zona ocular han sido revisadas proporcionando un campo de visión mucho más amplio, doble sistema de bloqueo de pantalla para una mayor seguridad en caso de accidente, acolchados interiores mejorados, un sistema de ventilación mucho más eficiente y la posibilidad de instalar un sistema de hidratación opcional .",
+  "variants":[
+     {
+        "id":"0",
+        "name":"negro",
+        "images":[
+           {
+             "src":"https://www.shoeicorver.com/img/cascos/01-img-shoei-casco-moto-jcruise2.png",
+             "alt":""
+           },
+           {
+             "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+             "alt":""
+           }
+         ],
+         "stock":3
+     }
+  ],
+  "categorie":"cascos",
+  "subCategorie":"pista",
+  "brand":"shoei"
+},
+{
+  "id":"21",
+  
+  "title":"PACKTALK EDGE",
+  "shortDescription":"Cardo Packtalk Edge es el último auricular inalámbrico Bluetooth para motocicleta para comunicación manos libres dentro y fuera de la carretera. ",
+  "largeDescription":"El nuevo diseño del estabilizador posterior proporciona un rendimiento aerodinámico estable, incluso a velocidades superiores a los 350 km/h, pero la innovación que hay detrás del nuevo X-SPR Pro no se limita solamente a su excepcional rendimiento aerodinámico; las dimensiones alrededor de la zona ocular han sido revisadas proporcionando un campo de visión mucho más amplio, doble sistema de bloqueo de pantalla para una mayor seguridad en caso de accidente, acolchados interiores mejorados, un sistema de ventilación mucho más eficiente y la posibilidad de instalar un sistema de hidratación opcional .",
+  "variants":[
+     {
+        "id":"0",
+        "name":"negro",
+        "images":[
+           {
+             "src":"https://www.cardosystems.com/wp-content/uploads/2022/01/gallery-6-600x347.png",
+             "alt":""
+           },
+           {
+             "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+             "alt":""
+           }
+         ],
+         "stock":3
+     }
+  ],
+  "categorie":"utilidades",
+  "subCategorie":"intercomunicador",
+  "brand":"cardo"
+},
+{
+  "id":"22",
+  
+  "title":"PACKTALK NEO",
+  "shortDescription":"Cardo Packtalk Neo es el último auricular inalámbrico Bluetooth para motocicleta para comunicación manos libres dentro y fuera de la carretera. ",
+  "largeDescription":"El nuevo diseño del estabilizador posterior proporciona un rendimiento aerodinámico estable, incluso a velocidades superiores a los 350 km/h, pero la innovación que hay detrás del nuevo X-SPR Pro no se limita solamente a su excepcional rendimiento aerodinámico; las dimensiones alrededor de la zona ocular han sido revisadas proporcionando un campo de visión mucho más amplio, doble sistema de bloqueo de pantalla para una mayor seguridad en caso de accidente, acolchados interiores mejorados, un sistema de ventilación mucho más eficiente y la posibilidad de instalar un sistema de hidratación opcional .",
+  "variants":[
+     {
+        "id":"0",
+        "name":"negro",
+        "images":[
+           {
+             "src":"https://www.cardosystems.com/wp-content/uploads/2022/10/PT-NEO-UNIT-Mockup-1-5-600x600.png",
+             "alt":""
+           },
+           {
+             "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+             "alt":""
+           }
+         ],
+         "stock":3
+     }
+  ],
+  "categorie":"utilidades",
+  "subCategorie":"intercomunicador",
+  "brand":"cardo"
 }
  ]
 }
