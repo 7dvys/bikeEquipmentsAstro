@@ -21,4 +21,16 @@
       border-color: $dark;
     }
   }
+
+  &.card-background {
+    overflow: hidden; // Ocultar contenido que se salga de la tarjeta
+
+    .full-background {
+      transition: transform 0.2s ease; // Agregar una transición suave para un efecto más agradable
+    }
+
+    &:hover .full-background {
+      transform: scale(1.05);
+    }
+  }
 }

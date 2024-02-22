@@ -1,6 +1,6 @@
 ---
 import '../../assets/scss/astro-ecommerce.scss';
-// import CardCategory from '../components/products/cardCategory';
+import CardCategory from '../components/products/cardCategory';
 import PromoSectionLarge from '../components/promo/promoSectionLarge';
 import PromoSectionLargeWithVideo from '../components/promo/promoSectionLargeWithVideo';
 // import ProductFeature from '../components/products/productFeature'
@@ -34,9 +34,24 @@ import PageLayout from '../layouts/PageLayout.astro';
     pageHeaderBgVideo={data.new.background.src} 
     pageHeaderMinVh="50vh"
     pageHeaderRadius="0.5rem"
-    cta='#'
+    cta='/'
     ctaText='Conoce Pioneira'
   />
+
+  <div class="row mb-5">
+    {data.categories.slice(0, 4).map(category => 
+      <div class="col-md-6 col-lg-3">
+        <CardCategory
+        classList=''
+        cta='/#'
+        ctaText='ver productos'
+          thumb_src = {category.thumb_src}
+          collection = {category.collection}
+          title = {category.title}
+        />
+      </div>
+    )}
+  </div>
   
 <!-- <ProductFeature 
       title='Bienvenido al mundo del guerrero callejero'

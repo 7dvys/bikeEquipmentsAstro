@@ -1,5 +1,4 @@
 // Obtener el navbar
-console.log('ola')
 const navbar = document.getElementById("navbar");
 
 // Variable para guardar la posición actual del scroll
@@ -9,7 +8,6 @@ let prevScrollpos = window.scrollY;
 window.onscroll = function() {
     // Obtener la posición actual del scroll
     const currentScrollPos = window.scrollY;
-    console.log(currentScrollPos)
     // Si la posición anterior es mayor que la actual, mostrar el navbar
     if (prevScrollpos > currentScrollPos) {
     navbar.style.top = "0";

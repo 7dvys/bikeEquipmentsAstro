@@ -3,7 +3,7 @@
     "title":"Tu socio en motopartes",
     "subtitle":"Más de 20 años de experiencia, una red sólida de contactos, asesoramiento personalizado y productos de alta calidad. La opción confiable para adquirir motopartes.",
     "background":{
-      "src":"https://images.unsplash.com/photo-1628441129679-cfded22b0c71",
+      "src":"/images/shoeiBackground2.jpg",
       "alt":"Shoei background"
     }
   },
@@ -38,6 +38,149 @@
     }
   ],
   "products": [
-    
-  ]
+    {
+       "id":"0",
+       "thumg":{
+          "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+          "alt":""
+       },
+       "images":[
+          {
+             "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+             "alt":""
+          },
+          {
+             "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+             "alt":""
+          }
+       ],
+       "title":"CONJUNTO DE NYLON STORM",
+       "shortDescription":"Juego de nailon con la mejor relación calidad-precio.",
+       "largeDescription":"La chaqueta tiene cierre de cremallera y velcro cubierto por solapa de drenaje, cuello alto, bolsillo interno con cremallera, regulador de velcro en puños, detalles de bies plateado (rosa para mujer), cinturón de ajuste en cintura (para mujer), bies reflectante + reflectante “P \" en la espalda. El pantalón tiene cintura elástica y ajuste con cremallera con bies reflectante.",
+       "details":"color: negro",
+       "variants":[
+          {
+             "id":"0",
+             "name":"negro",
+             "sizes":{
+                "s":0,
+                "m":1,
+                "l":2,
+                "xl":3
+             }
+          }
+       ],
+       "categorie":"indumentaria",
+       "subCategorie":"para lluvia",
+       "brand":"pioneira"
+    },
+    {
+       "id":"1",
+       "thumg":{
+          "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+          "alt":""
+       },
+       "images":[
+          {
+             "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+             "alt":""
+          },
+          {
+             "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+             "alt":""
+          }
+       ],
+       "title":"CASCO AGV K1",
+       "shortDescription":"Juego de nailon con la mejor relación calidad-precio.",
+       "largeDescription":"La chaqueta tiene cierre de cremallera y velcro cubierto por solapa de drenaje, cuello alto, bolsillo interno con cremallera, regulador de velcro en puños, detalles de bies plateado (rosa para mujer), cinturón de ajuste en cintura (para mujer), bies reflectante + reflectante “P \" en la espalda. El pantalón tiene cintura elástica y ajuste con cremallera con bies reflectante.",
+       "details":"color: negro",
+       "variants":[
+          {
+             "id":"0",
+             "name":"negro",
+             "sizes":{
+                "s":0,
+                "m":1,
+                "l":2,
+                "xl":3
+             }
+          }
+       ],
+       "categorie":"cascos",
+       "subCategorie":"de pista",
+       "brand":"agv"
+    },
+    {
+       "id":"2",
+       "thumg":{
+          "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+          "alt":""
+       },
+       "images":[
+          {
+             "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+             "alt":""
+          },
+          {
+             "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+             "alt":""
+          }
+       ],
+       "title":"CASCO AGV K3",
+       "shortDescription":"Juego de nailon con la mejor relación calidad-precio.",
+       "largeDescription":"La chaqueta tiene cierre de cremallera y velcro cubierto por solapa de drenaje, cuello alto, bolsillo interno con cremallera, regulador de velcro en puños, detalles de bies plateado (rosa para mujer), cinturón de ajuste en cintura (para mujer), bies reflectante + reflectante “P \" en la espalda. El pantalón tiene cintura elástica y ajuste con cremallera con bies reflectante.",
+       "details":"color: negro",
+       "variants":[
+          {
+             "id":"0",
+             "name":"negro",
+             "sizes":{
+                "s":0,
+                "m":1,
+                "l":2,
+                "xl":3
+             }
+          }
+       ],
+       "categorie":"cascos",
+       "subCategorie":"de pista",
+       "brand":"agv"
+    },
+    {
+       "id":"3",
+       "thumg":{
+          "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+          "alt":""
+       },
+       "images":[
+          {
+             "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+             "alt":""
+          },
+          {
+             "src":"https://capaspioneira.com.br/wp-content/uploads/2022/05/A0.jpg",
+             "alt":""
+          }
+       ],
+       "title":"CASCO Shoei urbano",
+       "shortDescription":"Juego de nailon con la mejor relación calidad-precio.",
+       "largeDescription":"La chaqueta tiene cierre de cremallera y velcro cubierto por solapa de drenaje, cuello alto, bolsillo interno con cremallera, regulador de velcro en puños, detalles de bies plateado (rosa para mujer), cinturón de ajuste en cintura (para mujer), bies reflectante + reflectante “P \" en la espalda. El pantalón tiene cintura elástica y ajuste con cremallera con bies reflectante.",
+       "details":"color: negro",
+       "variants":[
+          {
+             "id":"0",
+             "name":"negro",
+             "sizes":{
+                "s":0,
+                "m":1,
+                "l":2,
+                "xl":3
+             }
+          }
+       ],
+       "categorie":"cascos",
+       "subCategorie":"urbano",
+       "brand":"shoei"
+    }
+ ]
 }

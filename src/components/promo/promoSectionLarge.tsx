@@ -35,8 +35,8 @@ export default function TestimonialsFade({
             <div className="row justify-content-center">
               <div className="col-lg-8 col-sm-9 text-center mx-auto">
                 <h1 className="text-white mb-4">{title}</h1>
-                <p className="lead text-white mb-sm-6 mb-4">{full_description}</p>
-                <a href={cta} className="btn btn-white btn-lg">{ctaText}</a>
+                <p className="lead text-white mb-sm-6 mb-4 fs-4">{full_description}</p>
+                <a href={cta} className="btn btn-white p-3 px-5 fs-6 btn-lg">{ctaText}</a>
               </div>
             </div>
           </div>

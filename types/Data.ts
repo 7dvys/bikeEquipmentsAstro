@@ -18,8 +18,14 @@ type Categorie =  {
 type ProductVariant = {
     id:string;
     name:string;
-    sizes:{[size:string]:number}|undefined;
-    stock:number|undefined;
+}
+
+type ProductVariantWithSizes =ProductVariant & {
+    sizes: {[size:string]:number};
+}
+
+type ProductVariantWithoutSizes = ProductVariant & {
+    stock: number;
 }
 
 export type Product = {
@@ -32,17 +38,20 @@ export type Product = {
     
     shortDescription: string;
     largeDescription: string;
-    
+
     details?: string;
     highlights?: string[];
     
     rating?: number;
     reviews?: number;
 
-    sizes?:string[];
-
-    featuresDetails?:{[feature:string]:string}
-    variants?:ProductVariant[];
+    featuresDetails?:{[feature:string]:string};
+    
+    variants:(ProductVariantWithSizes|ProductVariantWithoutSizes)[];
+    
+    categorie: string;
+    subCategorie: string;
+    brand: string; 
 }
 
 export type Data = {
