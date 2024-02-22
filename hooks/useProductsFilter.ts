@@ -1,8 +1,8 @@
-import { useEffect, useState,useMemo } from "react";
-import type { Data } from "../types/Data"; 
+import { useState } from "react";
+import type { Data, Product } from "../types/Data"; 
 import { getBrandsAndCategoriesWithSubCategoriesFromProducts } from "../utils/getBrandsAndCategoriesWithSubCategoriesFromProducts";
 
-export const useProductsFilter = (products:Data['products'])=>{
+export const useProductsFilter = (products:Product[])=>{
     const [searchFilter,setSearchFilter] = useState<string>('');
     const [brandsFilter,setBrandsFilter] = useState<Set<string>>(new Set());
     const [categoriesFilter,setCategoriesFilter] = useState<Map<string,Set<string>>>(new Map());

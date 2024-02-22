@@ -18,6 +18,7 @@ type Categorie =  {
 type ProductVariant = {
     id:string;
     name:string;
+    images: Image[];
 }
 
 type ProductVariantWithSizes =ProductVariant & {
@@ -30,8 +31,6 @@ type ProductVariantWithoutSizes = ProductVariant & {
 
 export type Product = {
     id: string;
-    thumg:Image;
-    images: Image[];
     
     title: string;
     price?: number;

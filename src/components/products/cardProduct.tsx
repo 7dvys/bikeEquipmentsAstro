@@ -11,7 +11,7 @@ export default function CardProduct({
   shortDescription,
   price,
   position,
-  images,
+  variants,
   
 }: Props) {
 
@@ -22,7 +22,7 @@ export default function CardProduct({
       <div className="card card-product border mb-5 shadow-xs border-radius-lg">
         <a href="#">
           <div className="height-350">
-            <img className="w-100 h-100 p-4 rounded-top" src={`${images[0].src}`} alt={images[0].alt} />
+            <img className="w-100 h-100 p-4 rounded-top" src={`${variants[0].images[0].src}`} alt={variants[0].images[0].alt} />
           </div>
           <div className={classList}>
 

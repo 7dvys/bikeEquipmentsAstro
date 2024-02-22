@@ -34,7 +34,7 @@ import PageLayout from '../layouts/PageLayout.astro';
     pageHeaderBgVideo={data.new.background.src} 
     pageHeaderMinVh="50vh"
     pageHeaderRadius="0.5rem"
-    cta='/'
+    cta='/?marcas=pioneira'
     ctaText='Conoce Pioneira'
   />
 
@@ -43,7 +43,7 @@ import PageLayout from '../layouts/PageLayout.astro';
       <div class="col-md-6 col-lg-3">
         <CardCategory
         classList=''
-        cta='/#'
+        cta={'/?categorias='+category.title}
         ctaText='ver productos'
           thumb_src = {category.thumb_src}
           collection = {category.collection}
