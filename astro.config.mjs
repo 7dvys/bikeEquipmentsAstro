@@ -1,15 +1,15 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
 import react from "@astrojs/react";
 
 // https://astro.build/config
-import netlify from "@astrojs/netlify";
+// import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [react()],
-  site: 'https://www.bikeequipments.com',
-  base: '/',
-  output: "hybrid",
-  adapter: netlify()
+  site: "https://7dvys.github.io",
+  base: "bikeEquipments",
+  // output: "hybrid",
+  // adapter: netlify()
 });
