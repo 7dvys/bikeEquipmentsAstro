@@ -9,7 +9,7 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [react()],
   site: "https://7dvys.github.io",
-  base: "bikeEquipments",
+  base: "bikeEquipmentsAstro",
   // output: "hybrid",
   // adapter: netlify()
 });
